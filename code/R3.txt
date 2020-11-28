@@ -1,0 +1,7 @@
+hostname R3
+!
+interface loopback 0
+description loopback
+ip address 3.3.3.3 255.255.255.255
+!
+enable secret rob

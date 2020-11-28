@@ -1,0 +1,4 @@
+---
+- name: Generate Configuration Files
+  template: src=router.j2 dest=/home/rob/scripts/router_config/code/{{item.hostname }}.txt
+  with_items: "{{ routers }}"
